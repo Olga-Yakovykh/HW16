@@ -1,0 +1,30 @@
+footer {
+    .nav-style {
+        padding-bottom: 25px;
+        a {
+            font-size: 13px;
+            color: #394b50;
+            text-transform: uppercase;
+            padding: 0 14px;
+        }
+
+    }
+    .media-wrapper {
+        padding-bottom: 20px;
+    }
+    .icons-wrapper {
+        padding-bottom: 52px;
+        img {
+           padding: 0 4px; 
+        }
+        
+    }
+    .footer-wrapper {
+        background-color: #709dca;
+        padding: 20px 0 15px 0;
+        p{
+            font-size: 13px;
+            color: #ffffff;
+        }
+    }
+}

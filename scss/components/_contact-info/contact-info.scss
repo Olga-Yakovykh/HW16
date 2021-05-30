@@ -1,0 +1,95 @@
+.wrapper-form {
+    padding: 147px 0 52px 0;
+    .wrapper-title {
+        text-align: center;
+        padding-bottom: 40px;
+        h3 {
+            font-size: 30px;
+            color: #394b50;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            color: #394b50;
+
+        }
+    }
+    form {
+        align-items: center;
+
+        .inp-style {
+            border-left: none;
+            border-radius: 0 .25rem .25rem 0;
+            padding: 0.385rem 3.5rem 0.385rem 0;
+            border-radius: 0px 2px 2px 0;
+            box-shadow: none;
+            border: 1px solid #ced4da;
+            border-left: none;
+        }
+        .inp {
+            background: #ffffff;
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            padding: 16px;
+            font-size: $fz-btn;
+            background-clip: padding-box;
+            color: #6e6e6e;
+            border-radius: .25rem 0 0 .25rem;
+            border: 1px solid #ced4da;
+            border-right: none;
+             -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        [type="button"] {
+            background: #ffbb42;
+            border: #ffbb42;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: $fz-btn;
+            padding: 18px 52px;
+            border-radius: 2px 2px 2px 2px!important;
+        }
+    }
+
+   .wrapper-logo {
+      
+            background-image: url("../img/Dotted-Map.png");
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        .wrapper-logo-text {
+
+                width: 280px;
+                height: 280px;
+                background-color: #394b50;
+                border-radius: 50%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+            
+            
+            h5 {
+                font-size: 15px;
+                color: #ffffff;
+            }
+            p {
+                font-size: 13px;
+                color: #aeb7ba;
+            }
+            a{
+                text-decoration: none;
+                font-size: 13px;
+                color: #ffbb42;
+            }
+        }
+    
+    }
+}
